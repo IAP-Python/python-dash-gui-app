@@ -1,0 +1,26 @@
+#
+# Rad Test Cruncher default configuration file
+#
+
+# Define the name of the scope, ensures matching of ${SCOPE}%[0-9]
+SCOPE_NAME: "SCOPE"
+
+# Define the name of the beam, ensures matching of ${BEAM}%[0-9]
+SIGNAL_NAME: "BEAM"
+
+SIGNAL_POSITION: 0
+
+SCOPE_POSITION: 1
+
+# Define the position of the part name within the group string of your labview file. 
+# The starting index is 0. 
+PART_POSITION: 2
+
+# Define the position of the offset within the group string of your labview file. 
+# The starting index is 0. 
+OFFSET_POSITION: 3
+
+# 1 for true, 0 for false. Default is False.
+# Set this to true to test stuff. Only for debugging
+TEST_PERFORMANCE: 0
+
